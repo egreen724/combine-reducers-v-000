@@ -42,6 +42,7 @@ function authorsReducer(state = [], action) {
       return state;
   }
 }
+
 const store = createStore(manageAuthorsAndBooks, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 
 ReactDOM.render(
